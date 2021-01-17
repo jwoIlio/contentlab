@@ -7,6 +7,6 @@ script:
 
 deploy:
   provider: s3
-  bucket: content.demo.microfrontends.com
+  bucket: content.demo1.microfrontendexample.com
   local_dir: content
   skip_cleanup: true
