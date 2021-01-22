@@ -1,15 +1,19 @@
 # Content
 
-[![Build Status](https://travis-ci.org/micro-frontends-demo/content.svg?branch=master)](https://travis-ci.org/micro-frontends-demo/content)
+# GitHub
+1. Set up public GitHub repo
+2. Set up local git repo with the website files
+3. Link local git repo to remote GitHub repo
+4. Push first version of website files to GitHub repo
 
-Static content for a micro frontends demo.
+# Travis CI
+1. Change configuration to let GitHub repo push changes to Travis CI
 
-Contains global styles that everyone should use, and common content like images.
-This is a dependency for some of the other apps.
+# Website files changes
+1. Make the following adjustments:
+    - in /browselab/.travis.yml change the name of the subdomain
 
-# Getting started
-
-1. Clone the repo
-2. `yarn install`
-3. `yarn build`
-3. `yarn start`
+# Build and deployment
+1. Push changes to GitHub
+2. The changes will be forwarded to Travis CI
+3. Based on the .travis.yml file Travis CI will build the software and deploy it to AWS
