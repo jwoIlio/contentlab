@@ -17,4 +17,4 @@ jobs:
       - name: Build
         run: yarn build
       - name: Deploy
-        run: aws s3 sync ./build s3://content.demo1.labmicrofrontendexample.com
+        run: aws s3 sync ./content s3://content.demo1.labmicrofrontendexample.com
