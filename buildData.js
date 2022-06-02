@@ -16,7 +16,7 @@ const restaurants = [
   },
   {
     id: '2',
-    name: 'Chicken Nice',
+    name: 'Le Chicken Nice',
     priceRange: '$',
     imageSrc: '/images/2-chicken-rice.jpg',
     imageDescription: 'A photo of Hainanese chicken rice',
@@ -55,7 +55,7 @@ const restaurants = [
   },
   {
     id: '5',
-    name: 'Curry delights',
+    name: 'Le Curry delights',
     priceRange: '$$$',
     imageSrc: '/images/5-curry.jpg',
     imageDescription: 'A photo of Indian curries',
@@ -94,7 +94,7 @@ const restaurants = [
   },
   {
     id: '8',
-    name: 'Crunchy Crunch',
+    name: 'Le Crunchy Crunch',
     priceRange: '$$',
     imageSrc: '/images/8-fried-chicken.jpg',
     imageDescription: 'A photo of crispy fried chicken',
