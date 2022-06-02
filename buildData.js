@@ -29,11 +29,11 @@ const restaurants = [
   },
   {
     id: '3',
-    name: "Nonna's pizza and pasta",
+    name: "Garfield's pizza and pasta",
     priceRange: '$$',
     imageSrc: '/images/3-pizza.jpg',
     imageDescription: 'A photo of a margherita pizza',
-    description: 'Classic pizza and pasta just like Nonna used to make',
+    description: 'Classic pizza and pasta just like Garfield would eat',
     menu: [
       { item: 'Margherita pizza', price: 10 },
       { item: 'Pepperoni pizza', price: 12 },
